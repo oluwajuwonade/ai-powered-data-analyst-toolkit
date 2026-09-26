@@ -1,0 +1,9 @@
+stage,owner,automation_level,human_control_required,reusable_asset
+Frame,Analyst,Low,1,Question brief
+Inspect,Analyst,Medium,1,Data profile
+Validate,Analyst,Medium,1,QA checklist
+Analyse,Analyst,Medium,1,KPI notebook
+AI assist,AI + analyst,High,1,Prompt module
+Verify,Analyst,Low,1,Evidence log
+Explain,Analyst,Low,1,Report memo
+Preserve,Analyst,Medium,1,Template

@@ -8,11 +8,20 @@ Analysts lose time repeating low-value setup work. The toolkit standardizes comm
 
 ## Analytical Questions
 
-- Which analyst tasks can be standardized safely?\n- Where does AI accelerate work without weakening quality?\n- Which checks must remain human-controlled?\n- Which outputs can become reusable assets?
+- Which analyst tasks can be standardized safely?
+- Where does AI accelerate work without weakening quality?
+- Which checks must remain human-controlled?
+- Which outputs can become reusable assets?
 
 ## Deliverables
 
-- Data-cleaning workflow\n- KPI-analysis workflow\n- EDA checklist\n- AI prompt modules\n- Report skeleton\n- QA checklist\n- Reusable templates
+- Data-cleaning workflow
+- KPI-analysis workflow
+- EDA checklist
+- AI prompt modules
+- Report skeleton
+- QA checklist
+- Reusable templates
 
 ## Suggested Repository Structure
 
@@ -43,3 +52,19 @@ Python, pandas, SQL, Markdown, JSON, prompt templates, GitHub Actions-ready stru
 ## Portfolio Standard
 
 Use synthetic or public data with documented provenance. Clearly distinguish measured results from assumptions and illustrative scenarios.
+
+## Sample Outputs
+
+Run `python src/generate_outputs.py` to reproduce the illustrative analyst workflow comparison. Time values are planning assumptions, not observed productivity benchmarks.
+
+### Executive summary
+
+See [`outputs/executive_summary.md`](outputs/executive_summary.md) for the operating model and human-control boundaries.
+
+![Workflow effort comparison](outputs/workflow_effort_comparison.png)
+
+![Automation boundaries](outputs/automation_boundaries.png)
+
+- [`data/workflow_stages.csv`](data/workflow_stages.csv) — workflow stages and control ownership
+- [`outputs/workflow_effort_comparison.csv`](outputs/workflow_effort_comparison.csv) — illustrative effort comparison
+- [`outputs/qa_checklist.csv`](outputs/qa_checklist.csv) — reusable QA checklist

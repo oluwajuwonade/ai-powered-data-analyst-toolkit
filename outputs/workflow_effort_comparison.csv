@@ -1,0 +1,7 @@
+task,before_hours,after_hours,hours_saved,saving_pct
+Data profiling,2.5,1.0,1.5,0.6
+KPI calculations,2.0,0.8,1.2,0.6
+Chart drafting,1.5,0.6,0.9,0.6
+Narrative first draft,2.0,0.9,1.1,0.55
+Quality assurance,1.0,1.0,0.0,0.0
+Evidence capture,1.5,1.2,0.30000000000000004,0.20000000000000004
