@@ -1,19 +1,23 @@
-# AI-Powered Data Analyst Toolkit
+# AI-Native Data Analyst Operating System
 
-> Practical operating system for analysts combining data workflows, AI prompts, quality controls, and reusable reporting templates.
+> **Workflow problem:** Which analyst activities can be accelerated with AI without weakening analytical quality or human accountability?
 
-## Business Problem
+A reusable operating system for analysts combining data workflows, AI prompt modules, reporting templates, and explicit quality-control boundaries.
 
-Analysts lose time repeating low-value setup work. The toolkit standardizes common analyst workflows while keeping validation and human judgment explicit.
+## Operating workflow
 
-## Analytical Questions
+`Ingest → Profile → Clean → Explore → Analyse → Validate → Explain → Report`
 
-- Which analyst tasks can be standardized safely?
-- Where does AI accelerate work without weakening quality?
-- Which checks must remain human-controlled?
-- Which outputs can become reusable assets?
+AI is treated as an accelerator inside the workflow, not as a substitute for validation or judgment.
 
-## Deliverables
+## Analytical questions
+
+1. Which analyst tasks can be standardized safely?
+2. Where can AI reduce repetitive effort?
+3. Which checks must remain human-controlled?
+4. Which analytical outputs can become reusable assets?
+
+## Components
 
 - Data-cleaning workflow
 - KPI-analysis workflow
@@ -22,49 +26,43 @@ Analysts lose time repeating low-value setup work. The toolkit standardizes comm
 - Report skeleton
 - QA checklist
 - Reusable templates
+- Workflow control matrix
 
-## Suggested Repository Structure
+## Human-control boundary
 
-```text
-ai-powered-data-analyst-toolkit/
-├── data/
-├── notebooks/
-├── src/
-├── tests/
-├── outputs/
-├── README.md
-└── requirements.txt
+The toolkit explicitly distinguishes:
+
+**AI-assisted:** drafting, classification, pattern discovery, documentation, transformation suggestions.
+
+**Human-controlled:** evidence validation, causal claims, business interpretation, final recommendations, consequential decisions.
+
+## Reproduce
+
+Run:
+
+```bash
+python src/generate_outputs.py
 ```
 
-## Stack
+The generated outputs illustrate workflow stages, control ownership, and an example effort comparison.
 
-Python, pandas, SQL, Markdown, JSON, prompt templates, GitHub Actions-ready structure
+## Data disclosure
 
-## Method
+The effort comparisons are planning assumptions used to explain workflow design. They are **not observed productivity benchmarks**.
 
-1. Define the decision context and metric definitions.
-2. Profile and validate the data.
-3. Build reproducible transformations and calculations.
-4. Quantify the main drivers, scenarios, or failure modes.
-5. Validate outputs and document limitations.
-6. Produce an executive-ready decision narrative.
+## Portfolio role
 
-## Portfolio Standard
+**Tier 2 — AI-Powered Analytics Infrastructure**
 
-Use synthetic or public data with documented provenance. Clearly distinguish measured results from assumptions and illustrative scenarios.
+This project demonstrates workflow design and responsible use of AI inside analytical work.
 
-## Sample Outputs
+## Related projects
 
-Run `python src/generate_outputs.py` to reproduce the illustrative analyst workflow comparison. Time values are planning assumptions, not observed productivity benchmarks.
+- [AI Research & Evaluation Framework](https://github.com/oluwajuwonade/ai-research-evaluation-system)
+- [Data Quality & Analytics Assurance](https://github.com/oluwajuwonade/data-quality-audit-toolkit)
+- [AI-Powered Retail Sales Diagnostic](https://github.com/oluwajuwonade/AI-Powered-Retail-Sales-Diagnostic)
 
-### Executive summary
+## Author
 
-See [`outputs/executive_summary.md`](outputs/executive_summary.md) for the operating model and human-control boundaries.
-
-![Workflow effort comparison](outputs/workflow_effort_comparison.png)
-
-![Automation boundaries](outputs/automation_boundaries.png)
-
-- [`data/workflow_stages.csv`](data/workflow_stages.csv) — workflow stages and control ownership
-- [`outputs/workflow_effort_comparison.csv`](outputs/workflow_effort_comparison.csv) — illustrative effort comparison
-- [`outputs/qa_checklist.csv`](outputs/qa_checklist.csv) — reusable QA checklist
+**Oluwajuwon Adediji**  
+Data & Quantitative Analyst | AI-Powered Analytics | Workflow Automation
