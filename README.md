@@ -50,6 +50,13 @@ The generated outputs illustrate workflow stages, control ownership, and an exam
 
 The effort comparisons are planning assumptions used to explain workflow design. They are **not observed productivity benchmarks**.
 
+## Important limitations
+
+- Effort comparisons are planning assumptions, not observed productivity benchmarks.
+- AI-assisted steps can introduce omission, hallucination, or interpretation errors and require human validation.
+- The toolkit is a reusable workflow framework, not a guarantee of faster or better analysis in every context.
+- Consequential analytical decisions remain subject to source-data quality, domain context, and human review.
+
 ## Portfolio role
 
 **Tier 2 — AI-Powered Analytics Infrastructure**
